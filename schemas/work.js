@@ -15,6 +15,12 @@ export default {
             title: 'Short Description'
         },
         {
+            name:'link',
+            type: 'url',
+            title: 'Link'
+
+        },
+        {
             name: 'desc',
             type: 'string',
             title: 'Description'
