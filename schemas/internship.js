@@ -8,6 +8,10 @@ export default {
             type: 'string',
             title: 'Title'
 
+        },{
+          name:'url',
+          type:'url',
+          title:'URL'  
         },
         {
             name:'from',

@@ -3,7 +3,7 @@ export default {
     type: 'document',
     title: 'Work',
     fields: [
-        
+
         {
             name: 'title',
             type: 'string',
@@ -15,7 +15,7 @@ export default {
             title: 'Short Description'
         },
         {
-            name:'link',
+            name: 'link',
             type: 'url',
             title: 'Link'
 
@@ -29,10 +29,10 @@ export default {
             name: 'image',
             type: 'array',
             title: 'Image',
-            of:[
-              {
-                type: 'image',
-              }
+            of: [
+                {
+                    type: 'image',
+                }
             ]
         },
         {
