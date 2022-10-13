@@ -8,18 +8,23 @@ export default {
             type: 'string',
             title: 'Title'
 
-        },{
-          name:'url',
-          type:'url',
-          title:'URL'  
+        }, {
+            name: 'url',
+            type: 'url',
+            title: 'URL'
         },
         {
-            name:'from',
+            name: 'location',
+            type: 'string',
+            title: 'Location'
+        },
+        {
+            name: 'from',
             type: 'datetime',
             title: 'From'
         },
         {
-            name:'to',
+            name: 'to',
             type: 'datetime',
             title: 'To'
         },
